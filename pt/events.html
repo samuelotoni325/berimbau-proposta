@@ -1,0 +1,168 @@
+<!doctype html>
+<html lang="pt-BR" data-side="b" data-lock-side="1" data-page="events">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>Eventos privados · Berimbau</title>
+<meta name="description" content="De celebrações íntimas a andares inteiros. Encontre a sala certa para o seu número de convidados e peça a apresentação de eventos.">
+<meta name="theme-color" content="#04170e">
+<link rel="icon" href="../img/favicon.svg" type="image/svg+xml">
+<link rel="alternate" hreflang="en" href="../events.html">
+<link rel="preload" href="../fonts/anybody-var.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="../css/site.css">
+<script>document.documentElement.classList.add('js');try{var s=localStorage.getItem('bb-side');if(s&&!document.documentElement.dataset.lockSide)document.documentElement.dataset.side=s}catch(e){}</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"Restaurant","name":"Berimbau Brazilian Table — West Village","url":"https://www.berimbaunyc.com/","servesCuisine":"Brazilian","telephone":"+12124010027","email":"info@berimbaurestaurant.com","address":{"@type":"PostalAddress","streetAddress":"43 Carmine St","addressLocality":"New York","addressRegion":"NY","postalCode":"10014","addressCountry":"US"},"acceptsReservations":"https://resy.com/cities/new-york-ny/venues/berimbau-brazilian-table","hasMenu":"https://www.berimbaunyc.com/menus?location=west-village","sameAs":["https://www.instagram.com/berimbau_nyc/"]},{"@type":"Restaurant","name":"Berimbau Brazilian Table — 36th Street","url":"https://www.berimbaunyc.com/","servesCuisine":"Brazilian","telephone":"+12127637123","email":"info@berimbaurestaurant.com","address":{"@type":"PostalAddress","streetAddress":"3 West 36th Street","addressLocality":"New York","addressRegion":"NY","postalCode":"10018","addressCountry":"US"},"acceptsReservations":"https://resy.com/cities/new-york-ny/venues/berimbau-brazilian-table-36th-street","hasMenu":"https://www.berimbaunyc.com/menus?location=midtown","sameAs":["https://www.instagram.com/berimbau_nyc/"]}]}</script>
+</head>
+<body>
+<a class="skip" href="#main">Pular para o conteúdo</a>
+<div class="now" data-now aria-live="off"><span class="now__dot"></span><span class="now__label">Tocando agora</span><span class="now__text" data-now-text>Duas casas, uma corda</span></div>
+<header class="hd" data-hd>
+  <a class="hd__logo" href="index.html" aria-label="Berimbau, início"><span class="logo"></span></a>
+  <nav class="hd__nav" aria-label="Principal"><a href="menus.html">Tracklist</a><a href="caipirinha-bar.html">Caipirinha Bar</a><a href="second-floor.html">Second Floor</a><a href="events.html" aria-current="page">Eventos</a><a href="order.html">Pedir</a></nav>
+  <div class="hd__tools">
+    <button class="tool" data-sound aria-pressed="false" title="Som"><svg viewBox="0 0 24 24" width="17" height="17" aria-hidden="true"><path d="M3 12h3M8 7v10M12 4v16M16 8v8M20 11v2" stroke="currentColor" stroke-width="2" stroke-linecap="round" fill="none"/></svg><span class="sr">Som</span></button>
+    <a class="tool tool--lang" href="../events.html" data-lang hreflang="en" aria-label="Read in English">EN</a>
+    <button class="btn btn--book" data-book>Reservar</button>
+    <button class="burger" data-burger aria-expanded="false" aria-controls="drawer"><span></span><span></span><span class="sr">Menu</span></button>
+  </div>
+</header>
+<div class="drawer" id="drawer" data-drawer hidden>
+  <nav aria-label="Celular">
+    <a href="index.html">Início</a><a href="menus.html">Tracklist</a><a href="caipirinha-bar.html">Caipirinha Bar</a><a href="second-floor.html">Second Floor</a><a href="events.html">Eventos</a><a href="order.html">Pedir</a>
+    <a href="west-village.html">Lado A · West Village</a><a href="36th-street.html">Lado B · 36th Street</a>
+  </nav>
+</div>
+<canvas class="rail" data-rail aria-hidden="true"></canvas>
+<main id="main">
+
+<section class="evh">
+  <div class="evh__img" data-par><img src="../img/ev-main.webp" alt="O salão principal da 36th Street, com arcos e luminárias de palhinha" loading="lazy" decoding="async"></div>
+  <div class="evh__t"><p class="eye">Eventos privados e catering</p><h1 class="big"><span>Sua festa</span><span>na nossa casa</span></h1>
+  <p>De celebrações íntimas a andares inteiros, o Berimbau eleva sua experiência com hospitalidade brasileira, menus sob medida e um endereço único em Nova York.</p>
+  <div class="acts"><button class="btn" data-lead>Pedir apresentação</button><a class="btn btn--line" href="#rooms">Encontrar sua sala ↓</a></div></div>
+</section>
+<section class="finder" id="rooms" data-finder>
+  <header class="finder__h"><p class="eye">Buscador de salas</p>
+    <h2>Quantos convidados?</h2></header>
+  <div class="finder__ctl">
+    <output class="finder__n" data-f-out>30</output>
+    <div class="finder__rg"><label class="sr" for="g-pt">Número de convidados</label><input id="g-pt" type="range" min="10" max="125" step="1" value="30" data-f-guests></div>
+    <div class="finder__st" role="group" aria-label="Formato">
+      <button data-f-style="seated" aria-pressed="true">Sentados</button><button data-f-style="standing" aria-pressed="false">Em pé</button>
+    </div>
+    <p class="finder__c" data-f-count aria-live="polite"></p>
+  </div>
+  <ul class="spaces">
+    <li class="sp" data-sp data-seated="79" data-standing="125" data-mixed="0">
+      <figure><img src="../img/still-room.webp" alt="Primeiro andar inteiro" loading="lazy" decoding="async"></figure>
+      <div class="sp__b"><p class="sp__n">01</p><h3>Primeiro andar inteiro</h3><p>Flexibilidade para receber diferentes estilos de evento, com a opção de somar outras áreas em encontros maiores.</p>
+      <dl class="sp__cap"><div><dt>Sentados</dt><dd>79</dd></div><div><dt>Bar</dt><dd>12</dd></div><div><dt>Em pé</dt><dd>125</dd></div></dl>
+      <button class="lnk" data-lead>Ver disponibilidade →</button></div></li><li class="sp" data-sp data-seated="45" data-standing="0" data-mixed="0">
+      <figure><img src="../img/ev-main.webp" alt="Salão principal" loading="lazy" decoding="async"></figure>
+      <div class="sp__b"><p class="sp__n">02</p><h3>Salão principal</h3><p>O salão principal, com a opção de somar outras áreas conforme o tamanho do encontro.</p>
+      <dl class="sp__cap"><div><dt>Sentados</dt><dd>45</dd></div><div><dt>Bar</dt><dd>12</dd></div></dl>
+      <button class="lnk" data-lead>Ver disponibilidade →</button></div></li><li class="sp" data-sp data-seated="34" data-standing="0" data-mixed="0">
+      <figure><img src="../img/ev-private.webp" alt="Sala privativa" loading="lazy" decoding="async"></figure>
+      <div class="sp__b"><p class="sp__n">03</p><h3>Sala privativa</h3><p>Separada do salão principal, com luz e música totalmente personalizáveis e independentes do restante do restaurante.</p>
+      <dl class="sp__cap"><div><dt>Sentados</dt><dd>34</dd></div></dl>
+      <button class="lnk" data-lead>Ver disponibilidade →</button></div></li><li class="sp" data-sp data-seated="0" data-standing="0" data-mixed="20">
+      <figure><img src="../img/ev-stadium.webp" alt="Stadium Seating" loading="lazy" decoding="async"></figure>
+      <div class="sp__b"><p class="sp__n">04</p><h3>Stadium Seating</h3><p>Encontro descontraído ao lado do bar, com lugares sentados e em pé, e comida de rua brasileira servida volante ou em estação.</p>
+      <dl class="sp__cap"><div><dt>Misto</dt><dd>20</dd></div></dl>
+      <button class="lnk" data-lead>Ver disponibilidade →</button></div></li><li class="sp" data-sp data-seated="40" data-standing="74" data-mixed="0">
+      <figure><img src="../img/ev-second.webp" alt="Second Floor" loading="lazy" decoding="async"></figure>
+      <div class="sp__b"><p class="sp__n">05</p><h3>Second Floor</h3><p>Um refúgio sofisticado, de atmosfera íntima e imersiva, com eventos temáticos e DJ sets ao vivo.</p>
+      <dl class="sp__cap"><div><dt>Sentados</dt><dd>40</dd></div><div><dt>Bar</dt><dd>10</dd></div><div><dt>Em pé</dt><dd>74</dd></div></dl>
+      <button class="lnk" data-lead>Ver disponibilidade →</button></div></li>
+  </ul>
+  <p class="finder__none" data-f-none hidden>Maior do que uma sala? Os espaços podem ser combinados. Fale com a equipe.</p>
+</section>
+<section class="occ">
+  <figure><img src="../img/ev-family.webp" alt="Pratos para compartilhar em uma mesa" loading="lazy" decoding="async"></figure>
+  <div><p class="eye">Sabores da casa, experiência elevada</p>
+  <ul class="tags"><li>Menu degustação para compartilhar</li><li>Pacotes de open bar</li><li>Coquetéis e mocktails da casa</li><li>Opções vegetarianas, veganas e sem glúten</li></ul>
+  <p class="eye eye--dim">Um espaço para</p>
+  <p class="occ__l">Jantares corporativos · Networking · Aniversários e datas marcantes · Recepções de casamento · Brunches · Coquetéis · Lançamentos de produto</p></div>
+</section>
+<section class="voices" data-voices>
+  <img src="../img/il-guitar.webp" alt="" class="voices__g" loading="lazy" decoding="async">
+  <p class="eye">O que nossos clientes dizem</p>
+  <div class="voices__l">
+    <blockquote data-voice><p lang="en">“The perfect place to celebrate our intimate wedding. From the very first contact, the Berimbau team was incredibly attentive and welcoming. They truly understood my vision and went above and beyond to accommodate special requests, including a wedding cake table and a customized menu.”</p><footer>Talita Rodrigues</footer></blockquote><blockquote data-voice hidden><p lang="en">“Came here to celebrate my birthday with an amazing crew. This spot is fairly new and it did not disappoint. I do plan on coming back for brunch and their events. The food was amazing. We were served family style dinners.”</p><footer>Phadia Jean</footer></blockquote><blockquote data-voice hidden><p lang="en">“This is hands down my favorite event space in the city. The flavors are authentic, the energy is always on point, and the ambience makes you feel like you're on a little getaway.”</p><footer>Raquel Galardi</footer></blockquote>
+  </div>
+  <div class="voices__b"><button data-voice-prev aria-label="Anterior">←</button><span data-voice-n>1/3</span><button data-voice-next aria-label="Próximo">→</button></div>
+</section>
+<section class="hosted"><p class="eye">Já receberam eventos aqui</p><p class="hosted__l">Amazon · Anheuser-Busch · Banco do Brasil · Booking.com · Bradesco · Deloitte · Estée Lauder · Food & Wine · Globo · Google · Granado · Instituto Aya · Levain Bakery · Lincoln Center · NOM · PatBO · Paul Weiss · People Inc · PwC · Santander · Sol de Janeiro · World Climate Foundation</p></section>
+<section class="last last--sm"><h2 class="big big--ink"><span>Deixa com</span><span>a gente</span></h2><div class="last__b"><button class="btn btn--ink" data-lead>Pedir apresentação</button></div></section>
+</main>
+<footer class="ft">
+  <div class="ft__top">
+    <span class="mask mask--oval ft__oval" role="img" aria-label="Berimbau BR NY"></span>
+    <p class="ft__line">Uma corda.<br>Dois lados.</p>
+  </div>
+  <div class="ft__grid">
+    <div><h2>Lado A<br>West Village</h2><p><a href="https://www.google.com/maps/search/?api=1&query=Berimbau+Brazilian+Table+43+Carmine+St+New+York+NY+10014" target="_blank" rel="noopener">43 Carmine St<br>New York, NY 10014</a></p><p><a href="tel:+12124010027">(212) 401-0027</a></p><p class="ft__links"><a href="west-village.html">Horários</a><a href="menus.html?side=a">Cardápios</a><a href="https://resy.com/cities/new-york-ny/venues/berimbau-brazilian-table" target="_blank" rel="noopener">Resy</a></p></div><div><h2>Lado B<br>36th Street</h2><p><a href="https://www.google.com/maps/search/?api=1&query=Berimbau+Brazilian+Table+3+West+36th+Street+New+York+NY+10018" target="_blank" rel="noopener">3 West 36th Street<br>New York, NY 10018</a></p><p><a href="tel:+12127637123">(212) 763-7123</a></p><p class="ft__links"><a href="36th-street.html">Horários</a><a href="menus.html?side=b">Cardápios</a><a href="https://resy.com/cities/new-york-ny/venues/berimbau-brazilian-table-36th-street" target="_blank" rel="noopener">Resy</a></p></div>
+    <div><h2>Fique<br>na escuta</h2>
+      <form class="news" data-news novalidate>
+        <label class="sr" for="news-pt">Email</label>
+        <input id="news-pt" type="email" name="email" placeholder="name@email.com" autocomplete="email" required>
+        <button type="submit">Assinar</button>
+        <p class="news__msg" data-news-msg role="status"></p>
+      </form>
+      <p><a href="https://www.instagram.com/berimbau_nyc/" target="_blank" rel="noopener">@berimbau_nyc</a><br><a href="https://www.instagram.com/berimbau.secondfloor/" target="_blank" rel="noopener">@berimbau.secondfloor</a><br><a href="mailto:info@berimbaurestaurant.com">info@berimbaurestaurant.com</a></p>
+    </div>
+  </div>
+  <div class="ft__base">
+    <span>© 2026 Berimbau Brazilian Table</span>
+    <span><a href="https://www.berimbaunyc.com/terms" target="_blank" rel="noopener">Termos</a><a href="https://www.berimbaunyc.com/refunds" target="_blank" rel="noopener">Reembolsos</a><a href="https://www.berimbaunyc.com/privacy" target="_blank" rel="noopener">Privacidade</a></span>
+  </div>
+</footer>
+<p class="preview-tag">Prévia de proposta. Não é o site oficial do Berimbau.</p>
+<nav class="mobar" aria-label="Ações rápidas">
+  <button data-book>Reservar</button>
+  <a href="menus.html">Cardápio</a>
+  <button data-order>Pedir</button>
+  <a data-call href="tel:+12124010027">Ligar</a>
+</nav>
+<dialog class="dlg" id="dlg-book" aria-labelledby="bk-t">
+  <button class="dlg__x" data-close aria-label="Fechar">×</button>
+  <h2 id="bk-t">Reserve uma mesa</h2>
+  <p class="dlg__sub">Você conclui no Resy, o sistema oficial de reservas, com data e pessoas já preenchidas.</p>
+  <form data-book-form>
+    <fieldset class="seg"><legend>Lado</legend>
+      <label><input type="radio" name="side" value="a"><span><b>A</b>West Village</span></label><label><input type="radio" name="side" value="b"><span><b>B</b>36th Street</span></label>
+    </fieldset>
+    <div class="dlg__row">
+      <label>Data<input type="date" name="date" required></label>
+      <label>Pessoas<select name="seats"><option value="1">1</option><option value="2" selected>2</option><option value="3">3</option><option value="4">4</option><option value="5">5</option><option value="6">6</option><option value="7">7</option><option value="8">8+</option></select></label>
+    </div>
+    <button class="btn btn--full" type="submit">Ver mesas no Resy →</button>
+  </form>
+  <p class="dlg__foot" data-bar-note>Na 36th Street, os lugares no bar não são reservados: é só chegar.</p>
+</dialog>
+<dialog class="dlg" id="dlg-order" aria-labelledby="od-t">
+  <button class="dlg__x" data-close aria-label="Fechar">×</button>
+  <h2 id="od-t">Leve para casa</h2>
+  <div class="dlg__cols">
+    <div><h3>Lado A · West Village</h3><p>Peça direto na página do próprio restaurante.</p><a class="btn btn--full" href="https://berimbau.menu/berimbaubraziliankitchen?menu=a4f3835d-14ff-484c-9c68-e81f6eb31faf" target="_blank" rel="noopener">Pedir direto →</a></div>
+    <div><h3>Lado B · 36th Street</h3><p>Escolha a plataforma.</p><ul class="plats"><li><a href="https://www.doordash.com/store/berimbau-brazilian-kitchen-new-york-27796082/" target="_blank" rel="noopener">DoorDash <span>↗</span></a></li><li><a href="https://www.ubereats.com/store/berimbau-brazilian-table-midtown/LBKjMXnQUeSDIRcn_E2CxA" target="_blank" rel="noopener">Uber Eats <span>↗</span></a></li><li><a href="https://www.grubhub.com/restaurant/berimbau-brazilian-kitchen-3-w-36th-st-new-york/8663128" target="_blank" rel="noopener">Grubhub <span>↗</span></a></li><li><a href="https://www.seamless.com/menu/berimbau-brazilian-kitchen-3-w-36th-st-new-york/8663128" target="_blank" rel="noopener">Seamless <span>↗</span></a></li><li><a href="https://www.postmates.com/store/berimbau-brazilian-table-midtown/LBKjMXnQUeSDIRcn_E2CxA" target="_blank" rel="noopener">Postmates <span>↗</span></a></li></ul></div>
+  </div>
+</dialog>
+<dialog class="dlg dlg--wide" id="dlg-lead" aria-labelledby="ld-t">
+  <button class="dlg__x" data-close aria-label="Fechar">×</button>
+  <h2 id="ld-t">Peça a apresentação de eventos</h2>
+  <p class="dlg__sub">Formulário oficial do Berimbau, via Tripleseat.</p>
+  <iframe data-lead-frame title="Formulário de eventos" src="about:blank" loading="lazy"></iframe>
+</dialog>
+<dialog class="dlg dlg--reel" id="dlg-reel" aria-label="Instagram">
+  <button class="dlg__x" data-close aria-label="Fechar">×</button>
+  <iframe data-reel-frame title="Instagram" src="about:blank" allow="encrypted-media" loading="lazy"></iframe>
+</dialog>
+<script>window.BB={lang:'pt',lead:'https://api.tripleseat.com/v1/leads/iframe_embed?lead_form_id=36105&public_key=baee55db71def682ecb3d895df3be4f140f7cb60',sides:{"a":{"resy":"https://resy.com/cities/new-york-ny/venues/berimbau-brazilian-table","tel":"+12124010027","name":"West Village"},"b":{"resy":"https://resy.com/cities/new-york-ny/venues/berimbau-brazilian-table-36th-street","tel":"+12127637123","name":"36th Street"}}};</script>
+<script src="../vendor/gsap.min.js"></script>
+<script src="../vendor/ScrollTrigger.min.js"></script>
+<script src="../vendor/lenis.min.js"></script>
+<script src="../js/site.js"></script>
+</body>
+</html>
